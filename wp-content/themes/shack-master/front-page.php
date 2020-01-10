@@ -11,10 +11,10 @@ Template name: Inicio
 </head>
 
 
-<?php get_template_part('inc/content-carrouselimage', 'one'); ?>
+<?php echo do_shortcode('[smartslider3 slider=2]'); ?>
 
 
-</div>
+<h1>Hola</h1>
 
 
 <?php get_template_part('sections/home-section', 'one'); ?>

@@ -7,16 +7,16 @@
 <div class="header" id="myHeader">
   <div class="hiddemobile">
 
-    <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <?php get_template_part('inc/content-menu', 'navigation'); ?>
+        <div class="col-md-1 bg-danger"></div>
+        <div class="col-md-2 bg-warning">
+          <h3>TRUCOS DESARROLLO</h3>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-8 bg-info d-flex">
             <?php wp_nav_menu('nav_menu'); ?>
         </div>
+        <div class="col-md-1"></div>
       </div>
-    </div>
 
   </div>
 

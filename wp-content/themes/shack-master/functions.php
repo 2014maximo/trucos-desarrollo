@@ -56,15 +56,15 @@ wp_enqueue_style('Font_Awesome');
 // AGREGAR EL FRAMEWORK BOOTSTRAP 4.3.1
 ///////////////////////////////////
 function themebs_enqueue_styles() {
-  wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' );
+  wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
 
 }
 add_action( 'wp_enqueue_scripts', 'themebs_enqueue_styles');
 
 
 function themebs_enqueue_scripts() {
-  wp_enqueue_script( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array( 'jquery' ) );
-  wp_enqueue_script( 'popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array( 'jquery' ) );
+  wp_enqueue_script( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array( 'jquery' ) );
+  wp_enqueue_script( 'popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
 
