@@ -1,1 +1,8 @@
 html{scroll-behavior: smooth;}
+
+.categories{
+    background: url(http://localhost/trucos-desarrollo/wp-content/uploads/2020/01/fondo.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}

@@ -14,9 +14,9 @@ Template name: Inicio
 <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
 
 
-<h1>Hola</h1>
 
 
 <?php get_template_part('sections/home-section', 'one'); ?>
+<?php get_template_part('sections/home-section', 'two'); ?>
 
 <?php get_footer(); ?>

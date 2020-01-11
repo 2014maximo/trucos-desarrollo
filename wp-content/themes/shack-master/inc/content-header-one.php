@@ -4,15 +4,15 @@
 
 <div class="top-head">
 </div>
-<div class="header" id="myHeader">
+<div class="header fixed-top" id="myHeader">
   <div class="hiddemobile">
 
       <div class="row">
-        <div class="col-md-1 bg-danger"></div>
-        <div class="col-md-2 bg-warning">
-          <h3>TRUCOS DESARROLLO</h3>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <h3 class="mt-3">TRUCOS DESARROLLO</h3>
         </div>
-        <div class="col-md-8 bg-info d-flex">
+        <div class="col-md-8">
             <?php wp_nav_menu('nav_menu'); ?>
         </div>
         <div class="col-md-1"></div>
